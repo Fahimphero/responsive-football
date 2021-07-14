@@ -118,13 +118,7 @@ Media Query
 .player-container{
     width: 100%;
 }
-/* .player{
-    width: 300px;
-}
-.player-photo{
-    width: 280px;
-    height: 20px;
-} */
+
 .players{
     flex-direction: column;
     grid-template-columns: repeat(1,1fr);
@@ -165,12 +159,14 @@ Media Query
     margin-left: 0px;   
 }
 .player{
-    
+    width: 300px;
     margin-left: 0px;
 }
 .player-photo{
-    
+    width: 280px;
+    height: 230px;
 }
+
 .footer-container{
     width: 100%;
     display: flex;
